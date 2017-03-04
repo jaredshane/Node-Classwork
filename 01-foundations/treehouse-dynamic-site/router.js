@@ -6,7 +6,7 @@ const queryString = require('querystring');
 
 
 
-function homeRoute(request, response) {
+let homeRoute = (request, response) => {
   //if url === "/" && GET
   if (request.url === '/') {
     if(request.method.toLowerCase() === "get") {
@@ -38,7 +38,7 @@ function homeRoute(request, response) {
 }
 
 //Handle HTTP route GET /username
-function userRoute (request, response) {
+let userRoute = (request, response) => {
   //if url === "/anything"
   let username = request.url.replace('/', '')
   if (username.length > 0) {
@@ -48,7 +48,7 @@ function userRoute (request, response) {
 
     let studentProfile = new Profile(username);
     //on "end"
-    studentProfile.on("end", function(profileJSON){
+    studentProfile.on("end", (profileJSON) => {
       //show profile
       //store the values which we need
       let values = {
@@ -67,7 +67,7 @@ function userRoute (request, response) {
 
 
     //on 'error'
-    studentProfile.on("error", function(error) {
+    studentProfile.on("error", (error) => {
       //show error
       renderer.view('error', {errorMessage: error.message}, response)
       renderer.view('search', {}, response)
