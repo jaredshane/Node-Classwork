@@ -34,6 +34,14 @@ SELECT COUNT(Song.title) FROM Song GROUP BY GenreId
 --
 -- Using MAX() function, write a select statement to find the album with the longest duration. The result should display the album title and the duration.
 
+SELECT MAX(AlbumLength), Title FROM Album;
+
 -- Using MAX() function, write a select statement to find the song with the longest duration. The result should display the song title and the duration.
-  
+
+SELECT MAX(SongLength), Title FROM Song;
+
 -- Modify the previous query to also display the title of the album.
+
+SELECT MAX(SongLength), Song.Title, Album.Title
+FROM Song
+LEFT JOIN Album ON Album.AlbumId = Song.AlbumId
