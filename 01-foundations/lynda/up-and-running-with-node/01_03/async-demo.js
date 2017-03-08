@@ -1,6 +1,6 @@
 fs = require('fs');
 
-function phoneNumber(err, data) {
+const phoneNumber = (err, data) => {
 	console.log('data:', data);
 }
 
