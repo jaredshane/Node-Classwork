@@ -1,0 +1,54 @@
+{
+  "list": [
+    {
+      "id": "1",
+      "productname": "DVD",
+      "productprice": "5.00"
+    },
+    {
+      "id": "2",
+      "productname": "t-shirt",
+      "productprice": "25.00"
+    },
+    {
+      "id": "3",
+      "productname": "computer",
+      "productprice": "1400.00"
+    },
+    {
+      "id": "4",
+      "productname": "book",
+      "productprice": "15.00"
+    },
+    {
+      "id": "5",
+      "productname": "toy",
+      "productprice": "20.00"
+    },
+    {
+      "id": "6",
+      "productname": "car",
+      "productprice": "25000.00"
+    },
+    {
+      "id": "7",
+      "productname": "jewelry",
+      "productprice": "115.00"
+    },
+    {
+      "id": "8",
+      "productname": "phone",
+      "productprice": "200.00"
+    },
+    {
+      "id": "9",
+      "productname": "food",
+      "productprice": "3.00"
+    },
+    {
+      "id": "10",
+      "productname": "oxen",
+      "productprice": "250.00"
+    }
+  ]
+}
