@@ -59,6 +59,10 @@ WHERE substr ( InvoiceDate, 1, 4) = "2009"
 OR substr(InvoiceDate, 1, 4) = "2011"
 GROUP BY substr(InvoiceDate, 1, 4);
 
+SELECT COUNT(InvoiceId) AS "Total Invoices", SUM(Total) AS Total
+FROM Invoice
+WHERE InvoiceDate BETWEEN DATE('2009-01-01') AND DATE('2009-12-31')
+
 --Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for each Invoice. HINT: GROUP BY
 
 SELECT COUNT(InvoiceId)
