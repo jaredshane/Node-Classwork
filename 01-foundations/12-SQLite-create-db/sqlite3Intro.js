@@ -10,7 +10,7 @@ const dropEmployees = () => {
 
 // dropEmployees();
 
-//Creats the employees table if it doesn't exist, will not run if table exists
+//Creates the employees table if it doesn't exist, will not run if table exists
 db.run('CREATE TABLE IF NOT EXISTS employees (id INT, first TEXT, last TEXT, salary INT, dept TEXT)');
 
 //Ads an employee
