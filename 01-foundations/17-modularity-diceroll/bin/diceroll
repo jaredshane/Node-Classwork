@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+'use strict';
+
+// But cli.js doesn't export anything!
+// http://stackoverflow.com/questions/38172337/using-require-without-export
+require("../lib/cli");

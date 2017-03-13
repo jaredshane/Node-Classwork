@@ -1,0 +1,19 @@
+{
+  "name": "node-diceroll-testing-joeshep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "diceroll": "bin/diceroll"
+  },
+  "keywords": [],
+  "author": "Jared Fuller",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha -R nyan --watch"
+  }
+}
