@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = () => {
-  return 1;
+module.exports = (arg1, arg2) => {
+  return arg1 + arg2;
 }
