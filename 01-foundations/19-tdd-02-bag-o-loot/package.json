@@ -1,0 +1,22 @@
+{
+  "name": "19-tdd-02-bag-o-loot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "lootbag": "bin/lootbag"
+  },
+  "scripts": {
+    "test": "mocha -R nyan --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
