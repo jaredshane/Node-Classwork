@@ -29,7 +29,7 @@ get(`http://dev.markitondemand.com/MODApis/Api/v2/InteractiveChart/json?paramete
   res.on('data', (buff) => {
     // console.log('buff', buff)
     dataReturned += buff.toString()
-    console.log('dataReturned', dataReturned)
+    // console.log('dataReturned', dataReturned)
     // console.log(body)
   })
   res.on('end', () => {
