@@ -1,0 +1,16 @@
+{
+  "name": "03-express-hello-world",
+  "version": "1.0.0",
+  "description": "Express is a framework for creating web applications in Node.js. It is considered an unopinionated framework which means it's more like a library or toolset than a structured platform (On the front-end, Angular is an example of an opinionated framework).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./express-hello-world.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
