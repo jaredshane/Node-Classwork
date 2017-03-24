@@ -26,8 +26,8 @@ app.use((req, res, next) => {
   console.log(req.url)
   if (req.url.includes('egg')) {
     // console.log(req.res._header)
-    let date = res._header.slice(98, 129)
-    console.log(`You found the Easter Egg at ${date}
+    // let date = res._header.slice(98, 129)
+    console.log(`You found the Easter Egg at ${new Date()}
 
         ,ggadddd8888888bbbbaaa,_
      ,ad888,      'Y88,      'Y888baa,
