@@ -1,0 +1,13 @@
+.picture {
+  width: 200px;
+  height: 200px;
+}
+
+.nav {
+  display: none;
+}
+
+.active {
+  display: inline-block;
+  margin: 10px;
+}
