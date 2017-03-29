@@ -1,0 +1,17 @@
+{
+  "name": "03-web-scraper",
+  "version": "1.0.0",
+  "description": "When planning your front-end capstone you may have run into the problem of not finding an appropriate API for the data you wanted to use in your project. This was a common problem not so long ago before APIs became so popular. The solution? [Web scraping](https://en.wikipedia.org/wiki/Web_scraping), which entails extracting data from websites by pulling it straight out of a site's HTML. Any content that can be viewed on a webpage can be scraped.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  }
+}
