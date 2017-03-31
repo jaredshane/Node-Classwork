@@ -36,7 +36,7 @@ const getData = (req, res) => {
       let $ = cheerio.load(html)
 
       $('title').each((i, element) => {
-         let data = $(this);
+        //  let data = $(this);
         console.log(element.children[0].data);
       })
 
