@@ -1,0 +1,19 @@
+{
+  "name": "08b-knex-seeding",
+  "version": "1.0.0",
+  "description": "### Seeding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:reset": "knex migrate:rollback && knex migrate: latest && knex seed:run",
+    "start": "nodemon ./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^0.10.3",
+    "knex": "^0.12.9",
+    "pg": "^6.1.5"
+  }
+}
